@@ -1,0 +1,100 @@
+.foot{
+    height: 120px;  
+    background-color:rgba(64, 64, 64,0.8);
+     color:#ffffff;
+
+}
+.foot p{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top:20px;
+    margin: 0;
+     padding: 0;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+.foot p i{
+    padding: 10px 5px;
+}
+.foot p i:hover{
+    opacity: 0.7;
+}
+@media(min-width:920px) and (max-width:1117px){
+    .logo{
+        height: 355px;
+        width: 355px;
+    }
+    
+    .navi ul{
+        padding-left: 45%;}
+        li{
+        padding: 30px 20px;
+    }
+    }
+    @media(min-width:780px) and (max-width:919px){
+        .bg{
+            height: 360px;
+        }
+        .logo{
+            height: 300px;
+            width: 300px;
+        }
+        .navi ul{
+            padding-left:35%;
+        }
+    }
+    @media(min-width:621px) and (max-width:779px){
+        .bg{
+            height: 310px;
+        }
+        .logo{
+            height: 250px;
+            width: 250px;
+        }
+        .navi ul
+        {padding-left:20% ;}
+        a{font-size: 15px;}
+    }
+    @media(min-width:500px) and (max-width:620px){
+    .bg{
+    height:247px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    .logo{
+        height: 200px;
+        width: 200px;
+    }
+    .navi ul
+    {padding-left:15% ;}
+    li{
+        padding: 15px 10px;
+    }
+    a{font-size: 15px;}
+    }
+   
+        @media(min-width:780px) and (max-width:919px){
+          .foot p{font-size: 18px;}
+          .foot{ height: 110px;}
+        }
+        @media(min-width:621px) and (max-width:779px){
+            .foot p{font-size: 16px;}
+          .foot{ height: 110px;}
+        }
+        @media(min-width:500px) and (max-width:620px){
+            .foot p{font-size: 14px;}
+            .foot{ height: 100px;}
+        }
+        
+        @media(min-width:390px) and (max-width:499px){
+            .foot p{font-size: 13px;}
+            .foot{ height: 100px;}
+        }
+        @media(min-width:320px) and (max-width:389px){
+            .foot p{font-size: 10px;}
+            .foot{ height: 90px;}
+        
+        }
+      

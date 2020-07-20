@@ -1,0 +1,9 @@
+.up_btn{
+    position: fixed;
+    color:rgb(179, 174, 174);
+    font-size: 50px;
+    bottom:50px ;
+    right: 17px;
+    width: 40px;
+    height: 40px;
+}

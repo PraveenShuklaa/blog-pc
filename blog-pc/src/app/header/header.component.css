@@ -1,0 +1,143 @@
+
+.bg{
+    height: 441px;
+    background-image: url('../../assets/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    height: 380px;
+    width: 380px;
+    z-index: 2;
+    
+}
+ .logo img{
+    height: 100%;
+    width: 100%;
+ 
+}
+.navi{
+    position: relative;
+    top:0;
+    padding: 0;
+    margin: 0;
+}
+.navi ul{
+    margin: 0;
+    display: flex;
+   padding-left: 55%;
+   justify-content: end;
+  background-color:rgba(64, 64, 64,0.6);
+  z-index: 1;
+  
+}
+li{
+    padding: 20px;
+    list-style: none;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+      
+}
+li a:hover{
+    color: rgb(6, 250, 250);
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+@media(min-width:920px) and (max-width:1117px){
+.logo{
+    height: 355px;
+    width: 355px;
+}
+
+.navi ul{
+    padding-left: 45%;}
+    li{
+    padding: 30px 20px;
+}
+}
+@media(min-width:780px) and (max-width:919px){
+    .bg{
+        height: 360px;
+    }
+    .logo{
+        height: 300px;
+        width: 300px;
+    }
+    .navi ul{
+        padding-left:35%;
+    }
+}
+@media(min-width:621px) and (max-width:779px){
+    .bg{
+        height: 310px;
+    }
+    .logo{
+        height: 250px;
+        width: 250px;
+    }
+    .navi ul
+    {padding-left:20% ;}
+    a{font-size: 15px;}
+}
+@media(min-width:500px) and (max-width:620px){
+.bg{
+height:247px;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+.navi ul
+{padding-left:15% ;}
+li{
+    padding: 15px 10px;
+}
+a{font-size: 15px;}
+}
+@media(min-width:390px) and (max-width:499px){
+    .bg{
+        height:215px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        }
+        .logo{
+            height: 170px;
+            width: 170px;
+        }
+        .navi ul
+        {padding-left:15% ;
+        }
+        a{font-size: 12px;
+        }
+        li{
+        padding: 13px 13px;}
+}
+     @media(min-width:310px) and (max-width:389px){
+            .bg{
+                height:190px;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                }
+                .logo{
+                    height: 150px;
+                    width: 150px;
+                }
+                .navi ul
+                {padding-left:15% ;
+                }
+                a{font-size: 12px;
+                    letter-spacing: 0;
+                }
+                li{
+                padding: 10px 7px;}
+     
+    }

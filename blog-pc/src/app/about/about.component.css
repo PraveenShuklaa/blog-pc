@@ -1,0 +1,94 @@
+.container {
+    margin-top: 50px;
+    padding: 30px 0;
+ width: 80%;
+ position: relative;
+ top: 50%;
+ left: 10%;
+ transform: translate(-50% -50%);
+ text-align: center;
+white-space: 2px;
+color: rgb(107, 107, 107);
+}
+.container h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: rgb(1, 194, 194);
+}
+.container h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: rgb(1, 194, 194);
+}
+.container p{
+    font-size: 20px;
+    letter-spacing: 1px;
+
+ font-family: sans-serif;
+ 
+}
+.container a{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: rgb(1, 194, 194);
+    text-decoration: none;
+}
+.container a:hover{
+    color: rgb(97, 25, 3);
+
+}
+img{
+    height: 800px;
+    width: 60%;
+    padding: 30px;
+}
+
+
+@media(min-width:621px) and (max-width:779px){
+  .container p{font-size: 18px;}
+}
+.container{margin-top: 40px;}
+.container img{
+    height:400px ;
+}
+.container h3{ font-size: 35px;}
+.container h4{font-size: 27px ;}
+.container a{font-size:27px ;}
+@media(min-width:500px) and (max-width:620px){
+    .container p{font-size: 16px;}
+}
+.container{margin-top: 30px;}
+.container img{
+    height:325px ;
+}
+.container h3{ font-size: 32px;}
+.container h4{font-size: 24px ;
+}
+.container a{font-size: 24px;}
+
+@media(min-width:390px) and (max-width:499px){
+    .container p{font-size: 14px;}
+
+.container{margin-top: 20px;}
+.container img{
+    height:250px ;
+}
+.container h3{ font-size: 30px;}
+.container h4{font-size: 22px ;
+}
+.container a{font-size: 22px;}
+}
+@media(min-width:320px) and (max-width:389px){
+    .container p{font-size: 13px;}
+
+.container{margin-top: 10px;}
+.container img{
+    height:200px ;
+}
+.container h3{ font-size: 28px;}
+.container h4{font-size: 20px ;
+}
+.container a{font-size: 20px;}
+}
+     
+

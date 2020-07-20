@@ -1,0 +1,199 @@
+.container{
+    width: 100%;
+}
+    .icons{
+        height: 300px;
+        width: 100%;
+        background-color: rgb(1, 194, 194);
+        text-align: center;
+        position: relative;
+        margin: 0;
+        padding-top:10px ;
+    
+    }
+    .icons h1{
+
+          font-family: 'Dancing Script', cursive;
+          font-size: 40px;
+        
+    }
+    .icons .icon{
+        width: 30px;
+        height: 30px;
+        margin: 20px;
+        font-size: 30px;
+        padding: 17px 20px;
+         float: left;
+         position: relative;
+         left: 27%;
+         top: 10%;
+        color: #ffffff;
+       background-color: rgb(1, 194, 194);
+
+        border-radius: 10px;
+        box-shadow: -10px -10px 10px rgba(255,255,255,0.2),
+                    10px 10px 10px rgba(0,0,0,0.1);
+
+    }
+    .icons .icon:hover{
+        transition-duration: .5s;
+        box-shadow: -10px -10px 10px rgba(255,255,255,0.3),
+			            10px 10px 10px rgba(0,0,0,0.2),
+			            inset -5px -5px 7px rgba(255,255,255,0.3),
+			            inset 5px 5px 7px  rgba(0,0,0,0.2);
+	   	font-size: 25px;
+
+
+        }
+        
+        .pix{
+     
+            height:450px ;
+            width: 100%;
+            background-color: deeppink;
+        }
+         .pix img{
+            height: 100%;
+            width: 33.3%;
+        }
+        .pic{
+            height: 350px;
+            width: 100%;
+            background-color: fuchsia;
+            
+            
+        }
+        .pic img{
+            height: 100%;
+            width: 50%;
+        }
+    
+    .letter{
+        height: 170px;
+        width: 100%;
+        background-color: rgb(143, 228, 228);
+       
+    }
+    .letter h1{
+        margin: 0;
+        padding: 0;
+        font-size: 45px;
+        position: relative;
+        top: 35%;
+      
+       text-align: center;
+        color: #ffffff;
+        font-family: 'Dancing Script', cursive;
+        white-space: nowrap;
+    }
+   
+    .letter i{
+        color: red;
+    }
+    @media(min-width:920px) and (max-width:1150px){
+    .letter  h1{ font-size: 38px;}
+   .pix{height:410px ;}
+   .icons .icon{
+       left: 29%;
+       margin: 15px;
+       width: 27px;
+       height: 27px;
+       padding: 17px 18px;
+   }
+    }
+    
+    @media(min-width:780px) and (max-width:919px){
+        .letter  h1{ font-size: 32px;}
+        .letter {height: 160px;}
+        .icons{height: 280px;}
+        .pix{height:380px ;}
+        .pic{height: 330px;}
+        .icons .icon{
+            left: 25%;
+            top: 8%;
+            margin: 13px;
+            width: 27px;
+            height: 27px;
+            padding: 17px 18px;
+            font-size: 25px;
+        } 
+      }
+      @media(min-width:621px) and (max-width:779px){
+        .letter  h1{ font-size: 25px;}
+        .letter {height: 150px;}
+        .icons{height: 260px;}
+        .pix{height:350px ;}
+         .pic{height: 300px;}
+        .icons .icon{
+            left: 21%;
+            top: 8%;
+            margin: 11px;
+            width: 25px;
+            height: 25px;
+            padding: 15px 15px;
+            font-size: 23px;
+        } 
+        .icons h1{font-size:35px ;}
+
+      }
+      @media(min-width:500px) and (max-width:620px){
+        .letter  h1{ font-size: 20.5px;}
+        .letter {height: 140px;}
+        .pix{height:300px ;}
+         .pic{height: 270px;}
+         .icons{height: 250px;}
+        .icons .icon{
+            left: 17%;
+            top: 8%;
+            margin: 10px;
+            width: 23px;
+            height: 23px;
+            padding: 13px 13px;
+            font-size: 23px;
+        } 
+        .icons h1{font-size:32px ;}
+
+      }
+      
+      
+      @media(min-width:390px) and (max-width:499px){
+        .letter  h1{ font-size: 15px;}
+        .letter {height: 130px;}
+        .pix{height:250px ;}
+         .pic{height: 220px;}
+         .icons{height: 210px;}
+        .icons .icon{
+            left: 13%;
+            top: 9%;
+            margin: 7px;
+            width: 18px;
+            height: 18px;
+            padding: 13px 13px;
+            font-size: 20px;
+        } 
+        .icons h1{font-size:27px ;}
+
+      
+      }
+      @media(min-width:320px) and (max-width:389px){
+        .letter  h1{ font-size: 13px;}
+        .letter {height: 130px;}
+        .pix{height:200px ;}
+         .pic{height: 180px;}
+         .icons{height: 170px;}
+        .icons .icon{
+            left: 15%;
+            top: 9%;
+            margin: 7px;
+            width: 15px;
+            height: 15px;
+            padding: 10px 10px;
+            font-size: 17px;
+        } 
+        .icons h1{font-size:20px ;}
+
+      
+      }
+           
+      
+    

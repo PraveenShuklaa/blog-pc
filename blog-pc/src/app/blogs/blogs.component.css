@@ -1,0 +1,103 @@
+.container{
+    width: 100%;
+}
+.box{
+    margin: 50px 0;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 800px 800px 800px;
+    grid-column-gap: 20px;
+    grid-row-gap: 25px;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50% -50%);
+}
+
+.boxes{
+    
+    background-color: rgba(255, 254, 254, 0.932);
+    text-align: center;
+    box-shadow: 3px 3px 5px rgb(12, 12, 12,0.5),
+        -3px -3px 5px rgb(12, 12, 12,0.5);
+} 
+   
+    .boxes:hover{
+        transform: scale(.94);
+        color: black;
+        background-color: rgba(255, 254, 254, 0.692);
+        transition-duration: .5s;
+        
+        box-shadow: 3px 3px 5px rgb(12, 12, 12,0.2),
+                    -3px -3px 5px rgb(12, 12, 12,0.2);
+
+        
+    }
+.boxes img{
+    height:250px;
+    width: 100%;
+}
+.boxes h6{
+    font-size: 15px;
+}
+.boxes p{
+    color: rgb(0, 179, 179);
+}
+.boxes h4{
+    font-family: 'Dancing Script', cursive;
+    color: #01c2c2;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.boxes h2{
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(124, 124, 124);
+    font-weight: 50;
+    font-variant: monospace;
+}
+.boxes h2::first-letter{
+    font-size: 40px;
+    color: #00aaaa;
+}
+
+@media(min-width:780px) and (max-width:919px){
+        .box{
+            grid-template-columns: 47% 47% ;
+            grid-template-rows: 800px 800px ;
+           
+        }
+}
+@media(min-width:621px) and (max-width:779px){
+    .box{
+        grid-template-columns: 47% 47% ;
+        grid-template-rows: 900px 900px ;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+    }
+}
+@media(min-width:500px) and (max-width:620px){
+    .box{
+        grid-template-columns: 45% 45% ;
+        grid-template-rows: 1000px 1000px ;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+    }
+}
+
+@media(min-width:320px) and (max-width:499px){
+    .box{
+        grid-template-columns: 90%  ;
+        grid-template-rows: 800px ;
+        margin-left: 2%;
+     
+        grid-row-gap: 20px;
+    }
+}
+@media(min-width:320px) and (max-width:389px){
+   
+     
+}
